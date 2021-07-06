@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    background-color: #007aff;
+    width: 100vw;
+    height: 50px;
+  }
+  
+  
+  .card {
+    width: 650px;
+    
+    margin: auto;
+  }
+  
+  .user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .fa-star.active {
+    color: #e91e63;
+  }
+  
+  .btn-pink {
+    color: #000;
+  
+    margin-top: 15px;
+  }
+  
+  
+  
+  .image-bg {
+    width: 100px;
+  }
+  
+  .fit-image {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .prod-pic {
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .prod-bg {
+    width: 19.5%;
+    height: 110px;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .fat-img {
+    width: 94px;
+    height: 100px;
+  }
+  
+  .more {
+    width: 19.5%;
+    height: 110px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+  }
+  .line-one {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: grid;
+    
+  
+    grid-template-columns: repeat(4, 25fr);
+  }
+  .line-one-last-section {
+    grid-column: 3/5;
+  }
+  .line-two {
+    display: grid;
+    align-items: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    grid-template-columns: 20fr 20fr 20fr 40fr;
+    grid-template-rows: 100fr;
+  }
+  .set-place-btn {
+    grid-column: 4/5;
+    width: 50%;
+    margin-right: auto;
+  }
+  span > i {
+    margin-left: 0.5rem;
+  }
